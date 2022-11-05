@@ -54,4 +54,4 @@ I had a lot of problems developing the work component. The problem was mainly be
 
 # Link to Appetitze.io
 
-[Link to Appetize.io](https://appetize.io/app/vyf27p63e76kliou7ylef7rzra)
+[Link to Appetize.io](https://appetize.io/app/5urp6bkg47izwqej3idingamnq?device=pixel4&osVersion=11.0&scale=75)
