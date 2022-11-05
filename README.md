@@ -16,7 +16,7 @@ This application showcases some of my technical skills, as well as some of my pa
 
 -Components folder:<br />
 ~Splash folder:This folder contains the splash.js file. It's main purpose is to welcome the user to the application. It uses a useEffect and settimeout hooks, and a navigation property to load the splash screen and automatically navigate to the carousel <br />
-~Portfoli-features folder:This folder is divided into the following components <br />
+~Portfolio-features folder:This folder is divided into the following components <br />
 *About.js: This component displays the image at the top screen, and displays the TEXT component which showcases my skills and my name. At the bottom is a button that can navigate the user to the settings screen <br />
 *Carousel.js: This component is responsible for displaying the carousel slides. This component made use of the react native gesture handler to handle user feedback <br />
 *Context.js: This component is responsible for holding the state values across multiple components. It works based on the react context API provider. It holds the state for the light and dark mode <br />
