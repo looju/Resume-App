@@ -72,7 +72,7 @@ export const Works = ({ navigation }) => {
           <MaterialCommunityIcons
             name={name}
             size={25}
-            color="blue"
+            color="#FF6089"
             onPress={handlePress}
           />
         </TouchableOpacity>
@@ -125,9 +125,7 @@ export const Works = ({ navigation }) => {
           >
             <Text
               style={
-                theme == "light"
-                  ? styles.textDescription
-                  : styles.textDescriptionDark
+                theme == "light"? styles.textDescription: styles.textDescriptionDark
               }
             >
               {item.description}
@@ -216,7 +214,6 @@ const styles = StyleSheet.create({
   titleViewDark: {
     justifyContent: "center",
     marginLeft: 130,
-
     backgroundColor: "#000",
   },
   textDescription: {
@@ -230,11 +227,10 @@ const styles = StyleSheet.create({
     color: "#fff",
     fontFamily: "Island",
     marginTop: 15,
-    height: 30,
   },
   socials: {
     flex: 1,
-    backgroundColor: "red",
+    backgroundColor: "#FF6089",
     width: 400,
     position: "relative",
     marginTop: 20,

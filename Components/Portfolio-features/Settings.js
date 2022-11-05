@@ -1,5 +1,5 @@
 import React, { useContext, useState, useEffect } from "react";
-import { View, StyleSheet, Text, Button, Switch } from "react-native";
+import { View, StyleSheet, Text, Button, Switch, Vibration } from "react-native";
 import { ThemeContext } from "./Context";
 import { useFonts } from "@expo-google-fonts/dev";
 import * as Localization from "expo-localization";
@@ -13,6 +13,10 @@ export const Settings = ({ navigation }) => {
     i18n.enableFallback = true;
     i18n.locale = Localization.locale;
   };
+
+  const Vibrate=()=>{
+    Vibration.vibrate()
+  }
 
   useEffect(() => {
     checklanguageSettings();
@@ -51,6 +55,7 @@ export const Settings = ({ navigation }) => {
               onValueChange={toggleSwitch}
               value={isEnabled}
               onChange={handleThemeChange}
+              onPointerMove={Vibrate }
             />
           </View>
         </View>

@@ -52,7 +52,7 @@ export const About = ({ navigation }) => {
 
   if (fontsLoaded) {
     return (
-      <ScrollView>
+      <ScrollView style={theme=="light"? styles.ScrollView : styles.ScrollViewDark}>
         <View
           style={theme == "light" ? styles.container : styles.containerDark}
         >
@@ -111,6 +111,14 @@ export const About = ({ navigation }) => {
 };
 
 const styles = StyleSheet.create({
+  ScrollView:{
+    backgroundColor:"#fff",
+    flex:1
+  },
+  ScrollViewDark:{
+    backgroundColor:"#000",
+    flex:1
+  },
   container: {
     flex: 1,
     backgroundColor: "#fff",
@@ -154,7 +162,6 @@ const styles = StyleSheet.create({
   descriptionView: {
     bottom:25,
     maxWidth: 200,
-    maxHeight: 200,
     left: 125,
   },
   detailsView: {
