@@ -46,7 +46,7 @@ The design was based on giving the user a pleasant onboarding experience into th
 
 # Link to APK
 
-[Link to apk](https://drive.google.com/file/d/1Y4vTu4mvnGq9tlw4aliNIlSTwIJxcBZ8/view)
+[Link to apk](https://drive.google.com/file/d/1-Z74QpqK2-1rfBGH4nl21isejpQgzWKT/view?usp=share_link)
 
 # Problem description
 
@@ -55,5 +55,5 @@ I had a lot of problems developing the work component. The problem was mainly be
 # Link to Appetitze.io
 
 [Link to Appetize.io](
-https://appetize.io/app/vyf27p63e76kliou7ylef7rzra?device=pixel4&osVersion=11.0&scale=75
+https://appetize.io/app/ra5vzuvtd6dxzciulkturrplmi?device=pixel4&osVersion=11.0&scale=75
 )
